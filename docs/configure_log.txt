@@ -1,0 +1,282 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking whether to compile using MPI... no
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking whether to compile using MPI... no
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking whether to compile using MPI... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgfortran... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking for nagfor... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking whether we are using the GNU Fortran compiler... no
+checking whether  accepts -g... no
+checking how to run the C++ preprocessor... g++ -E
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to get verbose linking output from ... 
+checking for Fortran libraries of ... 
+checking whether the compiler recognizes the partial specialization syntax... yes
+you are compiling GetFEM++ on a x86_64-pc-linux-gnu
+Using the GNU g++ compiler 5.4.0-6ubuntu1~16.04.2)
+checking whether g++ accepts -O3... yes
+checking whether g++ accepts -Wall -W... yes
+checking whether g++ accepts -fmessage-length=0... yes
+checking whether g++ accepts -ftemplate-depth-100... yes
+checking whether g++ accepts -std=c++11... yes
+checking whether g++ accepts -fPIC... yes
+checking whether g++ accepts -pedantic... yes
+checking whether g++ accepts -Wshadow... yes
+checking whether g++ accepts -Wno-unknown-pragmas... yes
+checking whether g++ accepts -Wno-variadic-macros... yes
+checking whether g++ accepts -Wno-unused-but-set-variable... yes
+checking whether g++ accepts -Wpointer-arith... yes
+checking whether g++ accepts -Wcast-qual... yes
+checking whether g++ accepts -Wwrite-strings... yes
+checking whether g++ accepts -Wconversion... yes
+checking whether g++ accepts -Wredundant-decls... yes
+checking whether g++ accepts -Wno-long-long... yes
+checking whether g++ accepts -rdynamic... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+No fortran compiler found, assuming c-name for SGEMM is 'sgemm_'
+BLAS_LIBS=
+checking for sgemm_... no
+checking for ATL_xerbla in -latlas... no
+checking for sgemm_ in -lblas... no
+checking for sgemm_ in -lcxml... no
+checking for sgemm_ in -ldxml... no
+checking for sgemm_ in -lscs... no
+checking for sgemm_ in -lcomplib.sgimath... no
+checking for sgemm_ in -lblas... (cached) no
+checking for sgemm_ in -lblas... (cached) no
+checking for sgemm_ in -lblas... (cached) no
+ *** YOU DONT HAVE BLAS! *** Using a cheap replacement
+Building with SuperLU support (use --enable-superlu=no to disable it)
+Configuration of SuperLU done
+checking for qh_new_qhull in -lqhull... no
+checking libqhull/qhull_a.h usability... no
+checking libqhull/qhull_a.h presence... no
+checking for libqhull/qhull_a.h... no
+Building with libqhull (use --enable-qhull=no to disable it)
+Configuration of qhull done
+checking for library containing smumps_c... no
+checking for library containing dmumps_c... no
+checking for library containing cmumps_c... no
+checking for library containing zmumps_c... no
+checking smumps_c.h usability... no
+checking smumps_c.h presence... no
+checking for smumps_c.h... no
+checking dmumps_c.h usability... no
+checking dmumps_c.h presence... no
+checking for dmumps_c.h... no
+checking cmumps_c.h usability... no
+checking cmumps_c.h presence... no
+checking for cmumps_c.h... no
+checking zmumps_c.h usability... no
+checking zmumps_c.h presence... no
+checking for zmumps_c.h... no
+Configuration of MUMPS done
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking cxxabi.h usability... yes
+checking cxxabi.h presence... yes
+checking for cxxabi.h... yes
+checking for __PRETTY_FUNCTION__... yes
+checking for execinfo.h and backtrace... yes
+checking for fenv.h and feenableexcept... yes
+gf_asm.cc gf_compute.cc gf_cont_struct.cc gf_cont_struct_get.cc gf_cvstruct_get.cc gf_delete.cc gf_eltm.cc gf_fem.cc gf_fem_get.cc gf_geotrans.cc gf_geotrans_get.cc gf_global_function.cc gf_global_function_get.cc gf_integ.cc gf_integ_get.cc gf_levelset.cc gf_levelset_get.cc gf_levelset_set.cc gf_linsolve.cc gf_mesh.cc gf_mesh_fem.cc gf_mesh_fem_get.cc gf_mesh_fem_set.cc gf_mesh_get.cc gf_mesh_im.cc gf_mesh_im_data.cc gf_mesh_im_data_get.cc gf_mesh_im_data_set.cc gf_mesh_im_get.cc gf_mesh_im_set.cc gf_mesh_levelset.cc gf_mesh_levelset_get.cc gf_mesh_levelset_set.cc gf_mesh_set.cc gf_mesher_object.cc gf_mesher_object_get.cc gf_model.cc gf_model_get.cc gf_model_set.cc gf_precond.cc gf_precond_get.cc gf_slice.cc gf_slice_get.cc gf_slice_set.cc gf_spmat.cc gf_spmat_get.cc gf_spmat_set.cc gf_util.cc gf_workspace.cc
+checking for a Python interpreter with version >= 2.2... python
+checking for python... /usr/bin/python
+checking for python version... 2.7
+checking for python platform... linux2
+checking for python script directory... ${prefix}/lib/python2.7/dist-packages
+checking for python extension module directory... ${exec_prefix}/lib/python2.7/dist-packages
+/usr/bin/python
+Building with python support (use --enable-python=no to disable it)
+You will need the python-numpy and python-scipy packages.
+checking for python2.7... (cached) /usr/bin/python
+checking for a version of Python >= '2.1.0'... yes
+checking for the distutils Python package... yes
+checking for Python include path... -I/usr/include/python2.7
+checking for Python library path... -L/usr/lib/python2.7 -lpython2.7
+checking for Python site-packages path... /usr/lib/python2.7/dist-packages
+checking python extra libraries... -L/usr/lib -lz -lpthread -ldl  -lutil
+checking python extra linking flags... -Xlinker -export-dynamic -Wl,-O1 -Wl,-Bsymbolic-functions
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating m4/Makefile
+config.status: creating cubature/Makefile
+config.status: creating superlu/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/sphinx/Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating contrib/Makefile
+config.status: creating contrib/icare/Makefile
+config.status: creating contrib/delaminated_crack/Makefile
+config.status: creating contrib/bimaterial_crack_test/Makefile
+config.status: creating contrib/xfem_stab_unilat_contact/Makefile
+config.status: creating contrib/mixed_elastostatic/Makefile
+config.status: creating contrib/xfem_contact/Makefile
+config.status: creating contrib/crack_plate/Makefile
+config.status: creating contrib/aposteriori/Makefile
+config.status: creating contrib/level_set_contact/Makefile
+config.status: creating contrib/static_contact_gears/Makefile
+config.status: creating contrib/test_plasticity/Makefile
+config.status: creating bin/Makefile
+config.status: creating interface/Makefile
+config.status: creating interface/src/Makefile
+config.status: creating interface/src/matlab/Makefile
+config.status: creating interface/src/matlab/private/Makefile
+config.status: creating interface/src/python/Makefile
+config.status: creating interface/src/python/setup.py
+config.status: creating interface/src/scilab/Makefile
+config.status: creating interface/src/scilab/sci_gateway/c/builder_gateway_c.sce
+config.status: creating interface/tests/Makefile
+config.status: creating interface/tests/meshes/Makefile
+config.status: creating interface/tests/matlab/Makefile
+config.status: creating interface/tests/matlab/private/Makefile
+config.status: creating interface/tests/python/Makefile
+config.status: creating getfem-config
+config.status: creating getfem-config-notinstalled
+config.status: creating gmm-config
+config.status: creating config.h
+config.status: executing src/getfem/getfem_arch_config.h commands
+config.status: creating src/getfem/getfem_arch_config.h - prefix GETFEM for config.h defines
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+------------------------------------------------------------------------------
+
+Libraries Used:
+---------------
+
+- QD library not found (don't worry, this library is only recommended for very specific uses).
+- Qhull not found. Mesh generation will be disabled.
+- Mumps not found. Not using the MUMPS library for large sparse linear systems.
+- Lapack library not found: generic (less effective) algorithms will be used
+- *** No usable blas library was found ***
+  A generic BLAS implementation will be used, however you should 
+  consider installing a faster BLAS, such as ATLAS
+  You can give the location of your prefered blas library with either
+  the --with-blas=<lib> option, or the BLAS_LIBS environment variable
+  for example: ./configure BLAS_LIBS="-L/usr/lib/sse2/atlas/ -lblas"
+
+
+
+-----------------------------------------------------------------------
+Ready to build getfem
+  building MATLAB interface: NO
+  building PYTHON interface: YES (requires numpy, scipy and also mpi4py for the parallel version)
+  building SCILAB interface: NO
+  If you want to build the shared library of getfem++, use --enable-shared
+  (by default, only the static one will be built)
+-----------------------------------------------------------------------
